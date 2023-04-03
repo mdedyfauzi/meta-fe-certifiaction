@@ -1,0 +1,158 @@
+body {
+  display: grid;
+  row-gap: 20px;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-color: darkgray;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+nav {
+  width: 100%;
+
+  background-color: white;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1100px;
+  padding: 0px;
+  margin: 8px auto;
+  list-style: none;
+}
+
+a {
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #d0604c;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #cc8d81;
+}
+
+h2 {
+  letter-spacing: 2px;
+  color: #d0604c;
+}
+
+.icon {
+  width: 300px;
+  margin: 20px 0px;
+}
+
+/* main {
+  display: grid;
+  row-gap: 20px;
+  grid-template-rows: auto auto;
+} */
+
+.banner-section,
+.article-section {
+  width: 1100px;
+  margin: 0px auto;
+}
+
+.banner-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  object-fit: cover;
+  background-image: url(./assets/images/banner.jpeg);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-bottom: 20px;
+}
+
+.article-banner {
+  width: 1080px;
+  height: 180px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.article-banner > h2,
+.article-banner > p {
+  margin: 20px 20px 0px;
+}
+
+.article-banner > p {
+  color: #d0604c;
+}
+
+.article-section {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.article-card {
+  width: 330px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: all 0.3s ease;
+}
+
+.article-card:nth-child(2) {
+  margin: 0px auto;
+}
+
+.article-card:nth-child(3) {
+  margin-left: auto;
+}
+
+.article-card:hover {
+  width: 352px;
+  height: 460px;
+}
+
+.article-card > img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  object-fit: scale-down;
+  transition: all 0.3s ease;
+}
+
+.article-card > h2,
+.article-card > p {
+  margin: 20px;
+}
+
+footer {
+  background-color: black;
+  align-items: flex-end;
+}
+
+.footer-content {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-content > img {
+  width: 50px;
+  margin: auto 0px;
+  margin-left: 8px;
+}
+
+.footer-content > p {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 8px;
+  color: #d0604c;
+}
