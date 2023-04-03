@@ -1,0 +1,73 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right top, #0e003a, #0d0b45, #0e1251, #0d1a5d, #0a216a, #052e76, #013b82, #00488d, #005b95, #006c92, #007a89, #00867d);
+}
+
+.contact > div {
+  margin: 100px 0px;
+}
+
+.contact form {
+  width: 800px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+}
+
+.contact input,
+.contact select {
+  height: 60px;
+  border: none;
+  border-bottom: 1px solid #d4d7d9;
+}
+
+.contact select {
+  color: #747474;
+  background: none;
+}
+
+.contact textarea {
+  height: 200px;
+  border: none;
+  border-bottom: 1px solid #d4d7d9;
+  padding-top: 10px;
+}
+
+.contact button {
+  width: 200px;
+  height: 40px;
+  margin: 10px auto 0px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(87, 87, 87);
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+textarea {
+  padding-left: 10px;
+}
+
+select {
+  padding-left: 4px;
+}
+
+textarea {
+  padding-top: 50px;
+}

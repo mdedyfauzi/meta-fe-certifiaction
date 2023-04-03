@@ -1,0 +1,30 @@
+[
+  {
+    "id": "",
+    "title": "Hi-Parent",
+    "description": "Hi-Parent is an application that helps parents who leave their children in daycare so that they can monitor what their children are doing with their caregivers.",
+    "link": "https://hiparent.netlify.app/",
+    "cover": "https://drive.google.com/uc?export=view&id=1QxduXLzA_dATGGbsPa5pggxNTcV8dMjh"
+  },
+  {
+    "id": "",
+    "title": "SeeEvent",
+    "description": "An online event management platform where everybody can make and see the event around the world.",
+    "link": "https://seeevent.netlify.app/",
+    "cover": "https://drive.google.com/uc?export=view&id=1vg1YjIBTu6mwKipAsfDQpOzm3ucRmYjv"
+  },
+  {
+    "id": "",
+    "title": "Lorem Ipsum",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic distinctio nam ab soluta, autem at natus aperiam suscipit!",
+    "link": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "cover": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": "",
+    "title": "Lorem Ipsum",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic distinctio nam ab soluta, autem at natus aperiam suscipit!",
+    "link": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "cover": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  }
+]
